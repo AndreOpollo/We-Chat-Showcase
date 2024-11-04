@@ -13,7 +13,7 @@ const App = () => {
       />
       <SectionWrapper
         title="Smart User Interface and Experience"
-        description="Experience combined seamless and fluent UI as you comb through your curated list of favorite meals' recipes"
+        description="Experience combined seamless and fluent UI as you comb through your favorite meals' recipes"
         mockupImg={assets.homeCards}
         reverse
       />

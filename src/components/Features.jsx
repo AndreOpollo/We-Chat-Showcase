@@ -13,8 +13,8 @@ const Features = () => {
     <div className={`${styles.section} ${styles.bgPrimary} banner03`}>
       <div className={`${styles.subSection} flex-col text-center`}>
         <div>
-          <h1 className={`${styles.whiteText} ${styles.h1Text}`}>Technologies</h1>
-          <p className={`${styles.whiteText} ${styles.pText}`}>Developed using a cross-platform technology, React Native.</p>
+          <h1 className={`${styles.blackText} ${styles.h1Text}`}>Technologies</h1>
+          <p className={`${styles.blackText} ${styles.pText}`}>Developed using a cross-platform technology, React Native.</p>
         </div>
         <div className={styles.flexWrap}>
           <FeatureCard

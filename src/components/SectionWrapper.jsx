@@ -17,8 +17,8 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
         w-11/12 sm:w-full minmd:w-3/4`
       }>
         <div className={`${styles.descDiv} ${reverse ? 'fadeRightMini' : 'fadeLeftMini'}`}>
-          <h1 className={`${reverse ? styles.blackText : styles.whiteText} ${styles.h1Text}`}>{title}</h1>
-          <p className={`${reverse ? styles.blackText : styles.whiteText} ${styles.descriptionText}`}>{description}</p>
+          <h1 className={`${reverse ? styles.blackText : styles.blackText} ${styles.h1Text}`}>{title}</h1>
+          <p className={`${reverse ? styles.blackText : styles.blackText} ${styles.descriptionText}`}>{description}</p>
           {showBtn && (
             <Button
               assetUrl={assets.expo}

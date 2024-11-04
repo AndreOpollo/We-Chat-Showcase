@@ -6,8 +6,8 @@ const App = () => {
   return (
     <>
       <SectionWrapper
-        title="Your number one place for movies and tv shows"
-        description="Browse for popular and trending movies with just a single click of the button"
+        title="Your Favorite Recipe Collection"
+        description="Get all your favorite recipes in one place and so much more because food is always right"
         mockupImg={assets.homeHero}
         banner="banner"
       />
@@ -25,15 +25,15 @@ const App = () => {
         reverse
       />
       <SectionWrapper
-        title="Huge Database of Popular Movies"
-        description="This app contains a single home screen that leads to the details screen that contains movie details such as genre, cast members, similar movies, ratings and so much more. You can also such for a movie of your choice by clicking on the search icon."
+        title="Huge Collection of Recipes"
+        description="This app contains a single home screen that leads to a details screen. You can browse through various recipe options on the home screen. Click on any recipe image to get both written and video instructions on how to prepare your favorite meal"
         mockupImg={assets.mockup}
         banner="banner02"
       />
       <Download />
 
       <div className="px-4 py-2 justify-center items-center bg-primary text-center banner04">
-        <p className={`${styles.whiteText} ${styles.pText}`}>
+        <p className={`${styles.blackText} ${styles.pText}`}>
           Made by {' '}
           <span className="bold">Andrew Opollo</span>
         </p>

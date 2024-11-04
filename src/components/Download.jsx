@@ -14,7 +14,7 @@ const Download = () => {
         </div>
         <a
          className={styles.btnPrimary}
-         href="https://github.com/AndreOpollo/Movie-App"
+         href="https://github.com/AndreOpollo/Food-Recipe-App"
          target="_blank"
          >Source Code</a>
 

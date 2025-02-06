@@ -1,5 +1,5 @@
 import homeHero from "./HomeHero.png";
-import feature from './Feature.png';
+import feature from './feature.png';
 import section from "./Section.png";
 import expo from "./expo.png";
 import expo02 from "./expo02.png";

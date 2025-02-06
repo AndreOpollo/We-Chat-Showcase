@@ -14,12 +14,12 @@ const Download = () => {
         </div>
         <a
          className={styles.btnPrimary}
-         href="https://github.com/AndreOpollo/Food-Recipe-App"
+         href="https://github.com/AndreOpollo/We-Chat"
          target="_blank"
          >Source Code</a>
 
         <div className={styles.flexCenter}>
-          <img src={assets.scene} alt="download_png" className={styles.fullImg} />
+          <img src={assets.scene} alt="download_png" className="w-[500px]"/>
         </div>
       </div>
     </div>

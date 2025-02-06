@@ -1,21 +1,23 @@
-import homeHero from "./food-recipe.png";
-import homeCards from "./second.png";
-import feature from "./third.png";
+import homeHero from "./HomeHero.png";
+import feature from "./Feature.png";
+import section from "./Section.png";
 import expo from "./expo.png";
 import expo02 from "./expo02.png";
 import javascript from "./javascript.png";
-import react from "./react.png";
-import scene from "./Shot1.png";
-import mockup from "./fourth.png";
+import kotlin from './kotlin.png';
+import android from './android.png'
+import firebase from './firebase.png'
+import scene from "./ChatFinal.png";
 
 export default {
   homeHero,
-  homeCards,
+  section,
   feature,
   expo,
   expo02,
   javascript,
-  react,
+  android,
+  kotlin,
+  firebase,
   scene,
-  mockup,
 };

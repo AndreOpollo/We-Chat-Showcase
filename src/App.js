@@ -6,28 +6,28 @@ const App = () => {
   return (
     <>
       <SectionWrapper
-        title="Your Favorite Recipe Collection"
-        description="Get all your favorite recipes in one place and so much more because food is always right"
+        title="Welcome To WeChat"
+        description="A modern chat application built with Kotlin and Jetpack Compose, enabling seamless real-time communication."
         mockupImg={assets.homeHero}
         banner="banner"
       />
-      <SectionWrapper
-        title="Smart User Interface and Experience"
-        description="Experience combined seamless and fluent UI as you comb through your favorite meals' recipes"
-        mockupImg={assets.homeCards}
+         <SectionWrapper
+        title="User Authentication"
+        description="Securely register and log in to connect with your friends. WeChat ensures a safe and private messaging experience."
+        mockupImg={assets.section}
         reverse
       />
       <Features />
       <SectionWrapper
-        title="Deployment"
-        description="Built using Expo, this app is ready to be deployed to the App Store and Play Store."
+        title="Real-Time Messaging"
+        description="Send and receive messages instantly. WeChat uses Firebase to provide a fast and efficient chat experience."
         mockupImg={assets.feature}
         reverse
       />
-      <SectionWrapper
-        title="Huge Collection of Recipes"
-        description="This app contains a single home screen that leads to a details screen. You can browse through various recipe options on the home screen. Click on any recipe image to get both written and video instructions on how to prepare your favorite meal"
-        mockupImg={assets.mockup}
+        <SectionWrapper
+        title="Built with Jetpack Compose"
+        description="WeChat is designed using Jetpack Compose, providing a smooth and modern UI for the best user experience."
+        mockupImg={assets.scene}
         banner="banner02"
       />
       <Download />
